@@ -21,7 +21,7 @@ body {
     width: 150px;
     height: 150px;
     margin: 0 10px 0 10px;
-}
+ }
 
 .shaded-input
 {
@@ -76,9 +76,7 @@ textarea
     margin: auto;
     width: 300px;
     height: 100px;
-     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    word-wrap: normal;
     
 }
 
