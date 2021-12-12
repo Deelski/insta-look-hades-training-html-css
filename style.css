@@ -25,10 +25,9 @@ body {
 
 .shaded-input
 {
-    text-align: justify;
     background-color: #1C1C1C;
     border-radius: 0 30px 0 30px;
-    border: solid #161611;
+    border: hidden;
     width: 300px;
     height: 150px;
     color: white;
@@ -41,7 +40,8 @@ body {
 .button-submit
 {
     font-family: Helvetica;
-    background-color: rgb(88, 6, 6);
+    border: hidden;
+    background-color: #0d0d0d;
     color: gray;
     width: 150px;
     border-radius: 5px;
@@ -54,7 +54,9 @@ body {
 {
     border: solid #111111;
     border-radius: 30px;
-    
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 textarea
@@ -62,4 +64,39 @@ textarea
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.input-comment
+{
+    border: solid #1c1c1d;
+    background-color: #111111;
+    text-align: justify;
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+div p
+{
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+
+}
+
+div h1
+{
+    font-family: Verdana;
+    font-style: bold;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(209, 209, 209),   #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
